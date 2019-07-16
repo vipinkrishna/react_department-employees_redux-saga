@@ -1,0 +1,39 @@
+/* https://github.com/vipinkrishna */
+
+* {
+  box-sizing: border-box;
+}
+
+.Input {
+  width: 200px;
+  padding: 10px;
+  border: 1px solid cyan;
+  border-radius: 5px;
+  & > div {
+    margin-bottom: 10px;
+  }
+  & > div:last-of-type {
+    margin: 0;
+  }
+  select {
+    outline: none;
+    background-color: cyan;
+  }
+}
+
+.Output {
+  margin: 10px 0;
+  width: 200px;
+  background-color: cyan;
+  border-radius: 5px;
+  img {
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    padding: 10px;
+  }
+  div {
+    text-align: center;
+    padding-bottom: 10px;
+  }
+}
